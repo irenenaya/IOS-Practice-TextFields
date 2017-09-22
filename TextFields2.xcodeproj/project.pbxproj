@@ -12,6 +12,8 @@
 		269AFA7C1F746BFD005F1473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269AFA7A1F746BFD005F1473 /* Main.storyboard */; };
 		269AFA7E1F746BFD005F1473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269AFA7D1F746BFD005F1473 /* Assets.xcassets */; };
 		269AFA811F746BFE005F1473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269AFA7F1F746BFE005F1473 /* LaunchScreen.storyboard */; };
+		269AFA891F74854B005F1473 /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269AFA881F74854B005F1473 /* CashTextFieldDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		269AFA8B1F748A67005F1473 /* PostCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269AFA8A1F748A67005F1473 /* PostCodeTextFieldDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		269AFA7D1F746BFD005F1473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		269AFA801F746BFE005F1473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		269AFA821F746BFE005F1473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269AFA881F74854B005F1473 /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
+		269AFA8A1F748A67005F1473 /* PostCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				269AFA7D1F746BFD005F1473 /* Assets.xcassets */,
 				269AFA7F1F746BFE005F1473 /* LaunchScreen.storyboard */,
 				269AFA821F746BFE005F1473 /* Info.plist */,
+				269AFA881F74854B005F1473 /* CashTextFieldDelegate.swift */,
+				269AFA8A1F748A67005F1473 /* PostCodeTextFieldDelegate.swift */,
 			);
 			path = TextFields2;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				269AFA791F746BFD005F1473 /* ViewController.swift in Sources */,
+				269AFA891F74854B005F1473 /* CashTextFieldDelegate.swift in Sources */,
 				269AFA771F746BFD005F1473 /* AppDelegate.swift in Sources */,
+				269AFA8B1F748A67005F1473 /* PostCodeTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
